@@ -37,10 +37,10 @@
         <div id="txtEmail"></div>
         <br>
         <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="4"></textarea>
+        <textarea name="assunto" id="assunto" cols="60" rows="4" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
         <br>
-        <br>
-        <button>Enviar</button>
+        <button onclick="enviar()">Enviar</button>
       </form>
     </div>
 
@@ -50,7 +50,7 @@
       <p>Campinas - SP, CEP: 13026-350</p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14700.075493882192!2d-47.059302230224645!3d-22.9126747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf2fd0f5ae05%3A0x78eb8b127e57340d!2sEst%C3%A1dio%20Mois%C3%A9s%20Lucarelli!5e0!3m2!1spt-BR!2sbr!4v1610129761572!5m2!1spt-BR!2sbr"
-        width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        width="450" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()">
         <br>
         <br>
       </iframe>
