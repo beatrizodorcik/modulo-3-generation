@@ -7,6 +7,10 @@ import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
     MenuComponent,
     RodapeComponent,
     EntrarComponent,
-    CadastrarComponent
+    CadastrarComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
