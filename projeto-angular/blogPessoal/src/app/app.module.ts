@@ -9,7 +9,6 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
@@ -20,7 +19,6 @@ import { HomeComponent } from './home/home.component';
     EntrarComponent,
     CadastrarComponent,
     NavbarComponent,
-    FooterComponent,
     HomeComponent
   ],
   imports: [
