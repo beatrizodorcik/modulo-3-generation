@@ -60,9 +60,9 @@ html{
 }
 
 .parallax {
-  background-image: url("https://images.pexels.com/photos/1173576/pexels-photo-1173576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.com/photos/1173576/pexels-photo-1173576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 
-  min-height: 700px;
+  min-height: 400px;
 
   background-attachment: fixed;
   background-position: center;
