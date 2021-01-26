@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 #img-bg{
   background-image: url('https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
   min-height: 695px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#entrar{
+  font-family: 'Lobster', cursive;
 }
